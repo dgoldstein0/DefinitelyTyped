@@ -154,6 +154,7 @@ interface IEvent {
     pointer?: Point;
     absolutePointer?: Point;
     transform?: { corner: string, original: Object, originX: string, originY: string, width: number };
+    selected?: Object[];
 }
 
 interface IFillOptions {
